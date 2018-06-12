@@ -5,7 +5,6 @@ function doCal() {
 
   let e = document.getElementById('operatorInput');
   let calcType = e.options[e.selectedIndex].value;
-  console.log(calcType);
 
   if (calcType == 'add') {
     answer = num1 + num2 ;
@@ -15,8 +14,6 @@ function doCal() {
     answer = num1 * num2 ;
   }else if (calcType == 'divide') { 
     answer = num1 / num2 ;
-  } else {
-    answer = 'error: no operator symbol'
   }
   
   document.getElementById('change_me').innerHTML = answer ;
