@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>scripts and functions</title>
+  <script>
+    function headerFunction() {
+      document.getElementById('change_me').innerHTML = 'changed from the head';
+    }
+  </script>
+</head>
+<body>
+
+  <h2>Functions called from scripts in the </h2>
+  <button onclick = "headerFunction()" >Header </button>
+  <button onclick = "bodyFunction()" >Body </button>
+  <button onclick = "externalFunction()">External js file</button>
+
+  <p id = "change_me"> a humble paragraph</p>
+
+  <script>
+    function bodyFunction() {
+      document.getElementById("change_me").innerHTML = "changed from the body";
+    }
+  </script>
+
+  <script src="function.js"></script>
+  
+</body>
+</html>
