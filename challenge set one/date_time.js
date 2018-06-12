@@ -21,5 +21,5 @@ hours = hours ? hours : 12; // the hour '0' should be '12'
 minutes = minutes < 10 ? '0'+minutes : minutes;
 let strTime = hours + ':' + minutes + ' ' + ampm;
 
-document.getElementById('replaceDate'). innerHTML = day;
-document.getElementById('replaceTime'). innerHTML = strTime;
+document.getElementById('replaceDate').innerHTML = day;
+document.getElementById('replaceTime').innerHTML = strTime;
