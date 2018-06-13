@@ -1,6 +1,6 @@
 let date = new Date();
 
-let mm = (date.getMonth() + 1);
+let mm = (date.getMonth() + 1); // +1 because 0 indexed. 
 let dd = date.getDate();
 let yyyy = date.getFullYear();
 
