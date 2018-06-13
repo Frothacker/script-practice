@@ -1,4 +1,3 @@
-
 let file1 = 'test.rb';
 let file2 = 'test.xml';
 let file3 = 'test.html';

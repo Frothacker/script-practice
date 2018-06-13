@@ -1,4 +1,3 @@
-
 let num = prompt('input a number');
 
 if (num < 20) {
